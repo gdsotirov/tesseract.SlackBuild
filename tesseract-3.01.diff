@@ -1,0 +1,14 @@
+# Include missing headers
+diff -urNad tesseract-3.01-orig/viewer/svutil.cpp tesseract-3.01/viewer/svutil.cpp
+--- tesseract-3.01-orig/viewer/svutil.cpp	2011-10-22 08:28:44.000000000 +0300
++++ tesseract-3.01/viewer/svutil.cpp	2016-10-08 17:14:53.000000000 +0300
+@@ -35,7 +35,9 @@
+ #include <pthread.h>
+ #include <semaphore.h>
+ #include <signal.h>
++#include <unistd.h>
+ #include <stdlib.h>
++#include <stdio.h>
+ #include <string.h>
+ #include <netdb.h>
+ #include <sys/socket.h>
