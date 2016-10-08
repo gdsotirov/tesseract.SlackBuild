@@ -19,14 +19,14 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: tesseract.SlackBuild,v 1.3 2016/10/08 17:03:10 gsotirov Exp $
+# $Id: tesseract.SlackBuild,v 1.4 2016/10/08 18:10:42 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=tesseract
-VERSION='3.02.02'
-ARCH=${ARCH:-i486}
+VERSION='3.04.01'
+ARCH=${ARCH:-i586}
 BUILD=${BUILD:-1}
 
 TMP=${TMP:-/tmp}
