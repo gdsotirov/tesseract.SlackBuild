@@ -1,0 +1,14 @@
+cxxlibs >= 6.0.17 | gcc-g++ >= 4.7.1
+gcc >= 4.7.1
+giflib >= 4.1.6
+glibc-solibs >= 2.15
+leptonica >= 1.70
+libX11 >= 1.5.0
+libXau >= 1.0.7
+libXdmcp >= 1.1.1
+libjpeg >= v8a
+libpng >= 1.4.19
+libtiff >= 3.9.7
+libwebp >= 0.3.1
+libxcb >= 1.8.1
+zlib >= 1.2.6
