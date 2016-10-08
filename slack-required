@@ -1,16 +1,17 @@
-cxxlibs >= 6.0.17 | gcc-g++ >= 4.7.1
-gcc >= 4.7.1
+cxxlibs >= 6.0.18 | gcc-g++ >= 4.8.2
+gcc >= 4.8.2
 giflib >= 4.1.6
-glibc-solibs >= 2.15
-leptonica >= 1.70
-libX11 >= 1.5.0
-libXau >= 1.0.7
+glibc-solibs >= 2.17
+leptonica >= 1.72
+libX11 >= 1.6.2
+libXau >= 1.0.8
 libXdmcp >= 1.1.1
 libjpeg >= v8a
-libpng >= 1.4.19
+libpng >= 1.4.12
 libtiff >= 3.9.7
-libwebp >= 0.3.1
-libxcb >= 1.8.1
-tesseract-eng >= 3.01
-tesseract-osd >= 3.01
-zlib >= 1.2.6
+libwebp >= 0.4.4
+libxcb >= 1.9.1
+openjpeg >= 2.1.1
+tesseract-eng >= 3.02
+tesseract-equ >= 3.02
+zlib >= 1.2.8
