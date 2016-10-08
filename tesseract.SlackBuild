@@ -19,7 +19,7 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: tesseract.SlackBuild,v 1.1 2016/10/08 16:13:28 gsotirov Exp $
+# $Id: tesseract.SlackBuild,v 1.2 2016/10/08 16:15:49 gsotirov Exp $
 #
 
 . ../../slack-package.conf
@@ -83,11 +83,13 @@ gzip_man $PKG
 mkdir -p $PKG/install
 install -m 644 $CWD/slack-desc     $PKG/install/slack-desc
 install -m 644 $CWD/slack-required $PKG/install/slack-required
+install -m 644 $CWD/slack-suggests $PKG/install/slack-suggests
 
 SBDIR=$PKG/usr/src/slackbuilds/${NAME}-${VERSION}
 mkdir -p $SBDIR
 install -m 644 $CWD/slack-desc          $SBDIR/slack-desc
 install -m 644 $CWD/slack-required      $SBDIR/slack-required
+install -m 644 $CWD/slack-suggests      $SBDIR/slack-suggests
 if [ -e $CWD/${NAME}-${VERSION}.diff ]; then
   install -m 644 $CWD/${NAME}-${VERSION}.diff $SBDIR/${NAME}-${VERSION}.diff
 fi
