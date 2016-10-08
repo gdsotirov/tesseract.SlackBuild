@@ -11,4 +11,6 @@ libpng >= 1.4.19
 libtiff >= 3.9.7
 libwebp >= 0.3.1
 libxcb >= 1.8.1
+tesseract-eng >= 3.01
+tesseract-osd >= 3.01
 zlib >= 1.2.6
