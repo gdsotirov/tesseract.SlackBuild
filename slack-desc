@@ -1,0 +1,15 @@
+tesseract: Tesseract (An Open Source OCR Engine)
+tesseract:
+tesseract: Tesseract is an open source Optical Character Recognition (OCR)
+tesseract: engine. It has unicode (UTF-8) support and can recognize more than
+tesseract: 100 languages "out of the box" and it can be trained to recognize
+tesseract: more. Tesseract supports various output formats: plain-text,
+tesseract: hocr(html), pdf.
+tesseract: Tesseract was originally developed at Hewlett-Packard Laboratories
+tesseract: Bristol and at Hewlett-Packard Co, Greeley Colorado between 1985
+tesseract: and 1994, with some more changes made in 1996 to port to Windows,
+tesseract: and some C++izing in 1998.
+tesseract: In 2005 Tesseract was open sourced by HP and since 2006 it is
+tesseract: developed by Google.
+tesseract:
+tesseract: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
