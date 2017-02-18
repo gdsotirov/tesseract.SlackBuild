@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 # Slackware build script for Tesseract OCR
-# Copyright (C) 2016 Georgi D. Sotirov <gdsotirov@dir.bg>
+# Copyright (C) 2016-2017 Georgi D. Sotirov <gdsotirov@dir.bg>
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: tesseract.SlackBuild,v 1.4 2016/10/08 18:10:42 gsotirov Exp $
+# $Id: tesseract.SlackBuild,v 1.5 2017/02/18 15:56:57 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=tesseract
-VERSION='3.04.01'
+VERSION='3.05.00'
 ARCH=${ARCH:-i586}
 BUILD=${BUILD:-1}
 
